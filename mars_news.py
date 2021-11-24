@@ -93,9 +93,13 @@ def mars_facts():
     df.set_index('Description', inplace=True)
     
     #Convert DF back into HTML-ready code
-    return df.to_html(classes="table table-striped")
+    return df.to_html()
 
 if __name__ == "__main__":
 
-    #If running as script, print scraped data
+    # If running as script, print scraped data
     print(scrape_all())
+
+
+
+
