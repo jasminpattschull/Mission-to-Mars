@@ -123,7 +123,7 @@ def hemisphere(browser):
 
         browser.back()
 
-        return hemisphere_image_urls
+    return hemisphere_image_urls
 
 if __name__ == "__main__":
 
